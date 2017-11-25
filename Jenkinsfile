@@ -32,8 +32,6 @@ node {
     }
     finally {
         
-   
-        sh 'make clean'
-        sh 'make logout'
+  
     }
 }
