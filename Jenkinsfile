@@ -1,6 +1,7 @@
 node {
-    #checkout scm
+    
     git 'https://github.com/mikonoid/todobackend'
+    
     try {
         stage 'Run unit/integration tests'
         sh 'make test'
